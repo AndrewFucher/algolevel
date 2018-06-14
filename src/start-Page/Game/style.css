@@ -1,0 +1,79 @@
+.game_page {
+    margin: auto;
+    padding: 0;
+    flex-wrap: wrap;
+    display: flex;
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: space-between; 
+    justify-content: space-between;
+}
+
+.cell {
+    width: 38px;
+    height: 38px;
+    background-color: black;
+    position: relative;
+    padding: auto;
+    border: 1px solid rgb(10, 37, 51);
+    color: rgb(66, 70, 53);
+    text-align: center;
+    line-height: 37px;
+    font-size: 100%;
+}
+
+.cell_null {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    padding: auto;
+    background-color: rgb(10, 37, 51);
+}
+
+.board {
+    background: rgb(10, 37, 51);
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    position: relative;
+    text-align: center;
+    width: 600px;
+    height: 720px;
+    box-shadow: 7px 7px 15px #888888
+}
+
+.score {
+    color: blue;
+    text-align: center;
+    font-size: 90px;
+    margin: 0;
+}
+
+.score_board {
+    float: left;
+    height: 100%;
+    text-align: center;
+    width: 398px;
+    margin-top: 24%;
+    margin: auto;
+    padding: 0;
+    flex-wrap: wrap;
+    display: flex;
+    position: absolute; 
+    display: -webkit-box;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.attention {
+    text-align: center;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
